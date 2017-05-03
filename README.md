@@ -24,6 +24,7 @@ Attach the scripts Activate_Virtual_Endpoint and Deactivate_Virtual_Endpoint to 
 to represent the virtualized service. 
 
 
+
 Choose an attribute to store the control URL of the virtualized service, e.g.
 
 http://13.65.207.39:1505/api/Dcm/VSEs/VSE/data-driven-http-rest/actions/start
@@ -33,6 +34,7 @@ where VSE is the name of the virtual service environment and data-driven-http-re
 In this example, the attribute is Web Interface. You must update the scripts to read the virtual 
 endpoint configuration URL from the attribute name you choose.
 
+![](screenshots/activate%20virtual%20endpoint.png)
 
 
 # Example web app with SalesForce backend
